@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     font-size: 15px;
     background: #fff;
 }
@@ -9,12 +9,48 @@ body {
 /* ヘッダー */
 header {
     width: 100%;
-    height: 100px;
+    height: 50px;
 }
+
 .header-inner {
-    max-width: ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header_logo img {
+    width: 170px;
+}
+
+.header_menu_bar {
+    margin-top: 7px;
+    margin-right: 13px;
+    font-size: 20px;
+}
+
+.header_nav {
+    display: none;
+    pointer-events: none;
 }
 
 
 /* メイン */
 /* フッター */
+
+/* PC表示 */
+@media (min-width: 1032px) {
+
+    .header_menu_bar {
+        display: none;
+        pointer-events: none;
+    }
+
+    .header_nav {
+        display: flex;
+        pointer-events: auto;
+    }
+}
