@@ -2,7 +2,7 @@
 <html lang="ja">
 <heade>
     <meta charset="utf-8">
-    <title>三気株式会社</title>
+    <title>三気建設株式会社</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -16,13 +16,14 @@
 <header>
     <div class="header-inner">
         <div class="header_logo">
-            <a href="/">
+            <a href="#">
                 <img src="img/sanki_logo.svg" alt="sankiロゴ">
             </a>
         </div>
         <!-- スマホ表示 -->
         <div class="header_menu_bar">
-            <i class="fas fa-bars"></i>
+            <span class="menu_open"><i class="fas fa-bars"></i></span>
+            <span class="menu_close"><i class="fas fa-times"></i></span>
         </div>
         <!-- PC表示 -->
         <div class="header_nav">
@@ -33,7 +34,7 @@
                 <li><a href="#">採用情報</a></li>
             </ul>
             <div class="header_nav_contact">
-                <a>お問い合わせ</a>
+                <a href="#">お問い合わせ</a>
             </div>
         </div>
     </div>
@@ -41,7 +42,6 @@
 
 <!-- メニューボタンがクリックされた時に表示 -->
 <div class="menu-overlay">
-    <span><i class="fas fa-times"></i></span>
     <ul>
         <li><a href="#">トップページ</a></li>
         <li><a href="#">会社概要</a></li>
@@ -55,13 +55,77 @@
 <div class="menu-wrap"></div>
 <!-- メイン -->
 <main>
-
 </main>
 <!-- フッター -->
 <footer>
-    <div class="footer-inner">
+    <!-- スマホ用フッター -->
+    <div class="sp-footer">
+        <h1>三気建設株式会社</h1>
+        <div class="footer_adress">
+            <div class="adress adress1">
+                <p>[本社]</p>
+                <p>〒501-0552 岐阜県揖斐郡大野町大字大衣斐264</p>
+                <p>TEL:0585-34-1420 / FAX:0585-32-4955</p>
+            </div>
+            <div class="adress adress2">
+                <p>[飯田営業所]</p>
+                <p>〒395-0155 長野県飯田市三日市場406-3</p>
+                <p>TEL:0265-25-6835 /FAX:0265-25-7052</p>
+            </div>
+        </div>
+        <ul class="footer_nav">
+            <li><a href="#">トップページ</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">事業所案内</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
+        <p class="footer_copyright"><span lang="en">©</span>&nbsp;2021 Sanki Corporate.</p>
+    </div>
 
+    <!-- PC用フッター -->
+    <div class="pc-footer">
+        <div class="pc-footer-container">
+            <div class="row row1">
+                <h1>三気建設株式会社</h1>
+                <div class="footer_adress">
+                    <div class="adress adress1">
+                        <p>[本社]</p>
+                        <p>〒501-0552 岐阜県揖斐郡大野町大字大衣斐264</p>
+                        <p>TEL:0585-34-1420 / FAX:0585-32-4955</p>
+                    </div>
+                    <div class="adress adress2">
+                        <p>[飯田営業所]</p>
+                        <p>〒395-0155 長野県飯田市三日市場406-3</p>
+                        <p>TEL:0265-25-6835 /FAX:0265-25-7052</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="row row2">
+                <ul>
+                    <li><a href="#">トップページ</a></li>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">事業内容</a></li>
+                    <li><a href="#">ー植生工</a></li>
+                    <li><a href="#">　ーチップ材吹付工法</a></li>
+                    <li><a href="#">　ー植生基材注入工法</a></li>
+                    <li><a href="#">ー構造物工</a></li>
+                    <li><a href="#">　ーソイルクリート工法</a></li>
+                    <li><a href="#">採用情報</a></li>
+                </ul>
+            </div>
+            <div class="row row3">
+                <ul>
+                    <li><a href="#">事業所案内</a></li>
+                    <li><a href="#">コラム</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer_copyright"><span lang="en">©</span>&nbsp;2021 Sanki Corporate.</p>
     </div>
 </footer>
+<script src="js/menu.js"></script>
 </body>
 </html>
