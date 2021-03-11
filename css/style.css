@@ -120,6 +120,21 @@ header {
 main {
     flex: 1;
 }
+
+.main_vis_text {
+    position: absolute;
+    font-size: 10px;
+    z-index: 100;
+}
+
+.main_vis_img img {
+    position: relative;
+    width: 500px;
+    height: 214px;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+
 /* フッター */
 footer {
     width: 100%;
@@ -251,6 +266,7 @@ footer {
         color: #fff;
     }
     /* メイン */
+
     /* フッター */
     .sp-footer {
         display: none;
