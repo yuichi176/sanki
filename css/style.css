@@ -121,6 +121,7 @@ main {
     flex: 1;
 }
 
+/* トップ_キービジュアル */
 .main_vis_wrapper {
     position: relative;
 }
@@ -147,6 +148,36 @@ main {
 
 .main_vis_text p span {
     color: rgb(255, 177, 29);
+}
+
+/* トップ_コンテント */
+.top_content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.top_content-wrapper section {
+    display: flex;
+    flex-direction: column;
+}
+
+.top_content_title {
+    color: rgb(48, 96, 48);
+    font-weight: normal;
+}
+
+.top_content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top_content_img {
+    margin: 0 auto;
+}
+
+.top_content_img img {
+    width: 350px;
 }
 
 /* フッター */
