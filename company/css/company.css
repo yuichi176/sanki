@@ -1,8 +1,3 @@
-.content-wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
-
 .content-container {
     display: flex;
     flex-direction: column;
@@ -74,10 +69,6 @@
 
 /* PC表示 */
 @media (min-width: 1032px) {
-    .content-wrapper {
-        width: 98%;
-    }
-
     .content-container {
         flex-direction: row;
         margin-top: 50px;
