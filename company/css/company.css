@@ -1,0 +1,111 @@
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_img {
+    margin-bottom: 20px;
+}
+
+.content_img img {
+    width: 100%;
+}
+
+.content_text {
+    margin-bottom: 20px;
+}
+
+.content_text h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 15px;
+}
+
+.content_text p {
+    font-size: 12px;
+}
+
+.content_text li {
+    margin-bottom: 15px;
+}
+
+.row2 p:before {
+    content: "○";
+}
+
+/* @media (min-width: 700px) {
+    .content-wrapper {
+        width: 90%;
+    }
+    
+    .content-container {
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    .content_img {
+        order: 2;
+        width: 40%;
+    }
+
+    .content_text {
+        order: 1;
+        width: 60%;
+        display: flex;
+    }
+
+    .content_text h1 {
+        font-size: 18px;
+    }
+
+    .content_text p {
+        font-size: 15px;
+    }
+
+    .content_text .row1 {
+        margin-right: 60px;
+    }
+
+} */
+
+/* PC表示 */
+@media (min-width: 1032px) {
+    .content-wrapper {
+        width: 98%;
+    }
+
+    .content-container {
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .content_img {
+        order: 2;
+        width: 40%;
+    }
+
+    .content_text {
+        order: 1;
+        width: 60%;
+        display: flex;
+    }
+
+    .content_text h1 {
+        font-size: 18px;
+    }
+
+    .content_text p {
+        font-size: 15px;
+    }
+
+    .content_text .row1 {
+        margin-right: 100px;
+    }
+
+
+}

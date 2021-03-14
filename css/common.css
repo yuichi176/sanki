@@ -122,93 +122,12 @@ main {
     flex: 1;
 }
 
-/* トップ_キービジュアル */
-.main_vis {
-    margin-bottom: 20px;
-}
-
-.main_vis_wrapper {
-    position: relative;
-}
-
-.main_vis_wrapper img {
-    width: 100%;
-    height: 214px;
-    object-fit: cover;
-    object-position: 50% 0;
-}
-
-.main_vis_text {
-    position: absolute;
-    top: 13px;
-    left: 10px;
-    z-index: 50;
-}
-
-.main_vis_text p {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 540;
-}
-
-.main_vis_text p span {
-    color: rgb(255, 177, 29);
-}
-
-/* トップ_コンテント */
-.top_content-wrapper {
-    width: 95%;
-    margin: 0 auto;
-}
-
-.top_content-wrapper section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-.top_content-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.top_content_text-container {
-    display: flex;
-    flex-direction: column;
-    order: 1;
-}
-
-.top_content_title {
-    color: rgb(48, 96, 48);
-    font-weight: normal;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.top_content_text {
-    font-size: 13px;
-}
-
-.top_content_button {
-    padding: 10px 30px;
-    border: 1px solid rgb(48, 96, 48);
-    color: rgb(48, 96, 48);
+.page_title {
+    font-family: "ヒラギノ明朝 ProN W6";
+    padding: 15px 10px;
     text-align: center;
-    margin: 10px 0;
-    width: 100px;
+    font-size: 20px;
 }
-
-.top_content_img {
-    order: 2;
-    margin: 0 auto;
-    margin: 10px 0;
-}
-
-.top_content_img img {
-    width: 100%;
-}
-
 
 /* フッター */
 footer {
@@ -277,101 +196,15 @@ footer {
 }
 
 /* タブレット表示 */
-@media (min-width: 600px) {
-    /* メイン */
-    /* メインビジュアル */
-    .main_vis {
-        margin-bottom: 50px;
-    }
-
-    .main_vis_wrapper {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1170px;
-    }
-
-    .main_vis_wrapper img {
-        width: 100%;
-        height: 450px;
-    }
-
-    .main_vis_text {
-        position: absolute;
-        top: 20px;
-        left: 30px;
-        z-index: 50;
-    }
-    
-    .main_vis_text p {
+/* @media (min-width: 700px) {
+    .page_title {
+        padding: 0;
+        margin-top: 50px;
+        margin-left: 40px;
+        text-align: left;
         font-size: 25px;
-        color: #fff;
-        font-weight: 540;
     }
-    
-    .main_vis_text p span {
-        color: rgb(255, 177, 29);
-    }
-      /* トップ_コンテント */
-      .top_content-wrapper {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .top_content-wrapper section {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
-
-    .top_content-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .top_content-wrapper section:nth-child(even) .top_content-container{
-        flex-direction: row-reverse;
-    }
-
-    .top_content_text-container {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        order: 1;
-        margin-top: 10px;
-    }
-
-    .top_content_title {
-        color: rgb(48, 96, 48);
-        font-weight: normal;
-        font-size: 33px;
-    }
-
-    .top_content_text {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-
-    .top_content_button {
-        padding: 10px 20px;
-        border: 1px solid rgb(48, 96, 48);
-        color: rgb(48, 96, 48);
-        text-align: center;
-        margin: 10px 0;
-        width: 100px;
-    }
-
-    .top_content_img {
-        order: 2;
-        width: 40%;
-        margin: 0 auto;
-        margin: 10px 0;
-    }
-
-    .top_content_img img {
-        width: 100%;
-    }
-}
+} */
 
 /* PC表示 */
 @media (min-width: 1032px) {
@@ -436,37 +269,19 @@ footer {
     .header_nav_contact a {
         color: #fff;
     }
+
     /* メイン */
     main {
         max-width: 1170px;
         margin: 0 auto;
     }
-    /* メインビジュアル */
-    .main_vis_wrapper {
-        margin: 0 auto;
-        width: 100%;
-    }
 
-    .main_vis_wrapper img {
-        width: 100%;
-        height: 450px;
-    }
-
-    .main_vis_text {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        z-index: 50;
-    }
-    
-    .main_vis_text p {
-        font-size: 25px;
-        color: #fff;
-        font-weight: 540;
-    }
-    
-    .main_vis_text p span {
-        color: rgb(255, 177, 29);
+    .page_title {
+        padding: 0;
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: left;
+        font-size: 30px;
     }
 
     /* フッター */
