@@ -1,0 +1,57 @@
+.content-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-container h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-weight: normal;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.essentials h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.essentials p {
+    font-size: 12px;
+}
+
+.essentials li {
+    padding: 15px 0;
+}
+
+/* PC表示 */
+@media (min-width: 1032px) {
+.content-container {
+    width: 690px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.essentials h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.essentials p {
+    font-size: 15px;
+}
+
+.essentials li {
+    padding: 20px 0;
+}
+}
