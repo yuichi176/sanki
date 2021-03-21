@@ -1,0 +1,96 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-container h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48, 96, 48);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.column {
+    margin-bottom: 10px;
+}
+
+.column1 p span {
+    color: rgb(69, 102, 69);
+}
+
+.column2 .c1 {
+    margin-bottom: 20px;
+}
+
+.column2 .c2 {
+    margin-bottom: 30px;
+}
+
+.column2 .c2 {
+    margin-bottom: 30px;
+}
+
+.column2 .c2 dt {
+    font-family: "ヒラギノ明朝 ProN W6";
+}
+
+.column2 .c2 dd {
+    margin-bottom: 10px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* PC表示 */
+@media (min-width: 1032px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48, 96, 48);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .column {
+        margin-bottom: 10px;
+    }
+    
+    .column1 p span {
+        color: rgb(69, 102, 69);
+    }
+    
+    .column2 .c1 {
+        margin-bottom: 20px;
+    }
+    
+    .column2 .c2 {
+        margin-bottom: 30px;
+    }
+    
+    .column2 .c2 {
+        margin-bottom: 30px;
+    }
+    
+    .column2 .c2 dt {
+        font-family: "ヒラギノ明朝 ProN W6";
+    }
+    
+    .column2 .c2 dd {
+        margin-bottom: 10px;
+    }
+    
+    .column3 {
+        display: flex;
+        flex-direction: row;
+    }
+}
