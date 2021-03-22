@@ -42,18 +42,31 @@
 .column3 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column3 section {
+    width: 400px;
+    margin: 10px auto;
 }
 
 .column3 img {
+    width: 100%;
 
 }
 
 .column3 p {
-
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 .column3 a {
-    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: blue;
 }
 
 /* PC表示 */
@@ -103,5 +116,10 @@
     .column3 {
         display: flex;
         flex-direction: row;
+    }
+
+    .column3 section {
+        width: 300px;
+        margin: 10px auto;
     }
 }
