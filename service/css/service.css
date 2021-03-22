@@ -44,14 +44,25 @@
     flex-direction: row;
 }
 
+.column3 img {
+
+}
+
+.column3 p {
+
+}
+
+.column3 a {
+    
+}
+
 /* PC表示 */
 @media (min-width: 1032px) {
     .content-container {
         display: flex;
         flex-direction: column;
-        max-width: 1000px;
-        margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 50px;
+        max-width: 800px;
     }
     
     h1 {
