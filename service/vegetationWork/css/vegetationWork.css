@@ -82,7 +82,7 @@ tip_material_spraying_method.html
 }
 
 .tip_column1_image {
-    margin: 0 auto;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -99,6 +99,45 @@ tip_material_spraying_method.html
 .tip_column2 dd {
     font-size: 12px;
     margin-bottom: 18px;
+}
+
+/* --------------------------------------------
+vegetation_base_material_injection_method.html
+----------------------------------------------- */
+.vInj_content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vInj_column {
+    margin-bottom: 30px;
+}
+
+.vInj_column h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.vInj_column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vInj_column1 p {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.vInj_column1_image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vInj_column1 img {
+    width: 250px;
 }
 
 /* PC表示 */
@@ -209,5 +248,50 @@ tip_material_spraying_method.html
     .tip_column2 dd {
         font-size: 15px;
         margin-bottom: 20px;
+    }
+
+    /* --------------------------------------------
+    vegetation_base_material_injection_method.html
+    ----------------------------------------------- */
+    .vInj_content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .vInj_column {
+        margin-bottom: 50px;
+    }
+    
+    .vInj_column h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .vInj_column1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vInj_column1_text {
+        width: 70%;
+        padding-right: 30px;
+    }
+
+    .vInj_column1_image {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    
+    .vInj_column1 p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .vInj_column1 img {
+        width: 100%;
     }
 }
