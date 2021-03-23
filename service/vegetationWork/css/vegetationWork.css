@@ -1,0 +1,213 @@
+/* ----------------------------------------
+index.html
+---------------------------------------- */
+.vwList {
+    list-style: inside;
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.vwContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.vwContent_text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.vwContent_text h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.vwContent_text .column {
+    margin-bottom: 5px;
+}
+
+.vwContent_text h2 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 15px;
+}
+
+.vwContent_text p {
+    font-size: 12px;
+}
+
+.vwContent_image {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vwContent_image img {
+    width: 45%;
+    margin: 0 5px;
+}
+
+/* ----------------------------------------
+tip_material_spraying_method.html
+---------------------------------------- */
+.tip_content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tip_column {
+    margin-bottom: 30px;
+}
+
+.tip_column h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tip_column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tip_column1 p {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.tip_column1_image {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tip_column1 img {
+    width: 250px;
+}
+
+.tip_column2 dl {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.tip_column2 dd {
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+/* PC表示 */
+@media (min-width: 1032px) {
+    .vwList {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .vwContent {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .vwContent_text {
+        width: 65%;
+        padding-right: 30px;
+    }
+    
+    .vwContent_text h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .vwContent_text .column {
+        margin-bottom: 15px;
+    }
+    
+    .vwContent_text h2 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        font-size: 18px;
+    }
+    
+    .vwContent_text p {
+        font-size: 15px;
+    }
+    
+    .vwContent_image {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    .vwContent_image img {
+        width: 80%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    /* ----------------------------------------
+    tip_material_spraying_method.html
+    ---------------------------------------- */
+    .tip_content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .tip_column {
+        margin-bottom: 50px;
+    }
+    
+    .tip_column h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .tip_column1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tip_column1_text {
+        width: 70%;
+        padding-right: 30px;
+    }
+
+    .tip_column1_image {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    
+    .tip_column1 p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .tip_column1 img {
+        width: 100%;
+    }
+    
+    .tip_column2 dl {
+        font-family: "ヒラギノ明朝 ProN W6";
+        font-size: 18px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    
+    .tip_column2 dd {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
