@@ -1,3 +1,6 @@
+/* ----------------------------------------
+index.html
+---------------------------------------- */
 .stMenu {
     display: flex;
     flex-direction: column;
@@ -63,9 +66,60 @@
     margin: 0 5px;
 }
 
+/* ----------------------------------------
+soil_cleat_method.html
+---------------------------------------- */
+.soil_content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.soil_column {
+    margin-bottom: 30px;
+}
+
+.soil_column h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.soil_column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.soil_column1 p {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.soil_column1_image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.soil_column1 img {
+    width: 250px;
+}
+
+.soil_column2 ul {
+    font-size: 12px;
+    list-style-type: inherit;
+    padding-left: 10px;
+}
+
+.soil_column2 li {
+    margin-bottom: 15px;
+}
+
 /* PC表示 */
 @media (min-width: 1032px) {
-
+    /* ----------------------------------------
+    index.html
+    ---------------------------------------- */
     .stMenu {
         display: flex;
         flex-direction: column;
@@ -131,5 +185,54 @@
         width: 80%;
         margin: 0;
         margin-bottom: 10px;
+    }
+
+    /* ----------------------------------------
+    soil_cleat_method.html
+    ---------------------------------------- */
+    .soil_content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .soil_column {
+        margin-bottom: 50px;
+    }
+    
+    .soil_column h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .soil_column1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .soil_column1_text {
+        width: 70%;
+        padding-right: 30px;
+    }
+
+    .soil_column1_image {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    
+    .soil_column1 p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .soil_column1 img {
+        width: 100%;
+    }
+
+    .soil_column2 ul {
+        font-size: 15px;
     }
 }
