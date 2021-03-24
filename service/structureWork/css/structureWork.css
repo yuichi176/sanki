@@ -29,6 +29,10 @@ index.html
     margin-bottom: 50px;
 }
 
+.stContent .column {
+    padding-left: 20px;
+}
+
 .stContent_text {
     display: flex;
     flex-direction: column;

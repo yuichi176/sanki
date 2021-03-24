@@ -154,6 +154,10 @@ vegetation_base_material_injection_method.html
         margin: 0 auto;
         margin-bottom: 40px;
     }
+
+    .vwContent .column {
+        padding-left: 20px;
+    }
     
     .vwContent_text {
         width: 65%;
