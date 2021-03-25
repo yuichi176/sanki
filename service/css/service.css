@@ -19,6 +19,12 @@
     color: rgb(69, 102, 69);
 }
 
+.column1 .service_image1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .column2 .c1 {
     margin-bottom: 20px;
 }
@@ -102,6 +108,16 @@
     
     .column1 p span {
         color: rgb(69, 102, 69);
+    }
+
+    .column1 .service_image1 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .column1 .service_image1 img {
+        width: 80%;
     }
     
     .column2 .c1 {

@@ -101,6 +101,23 @@ tip_material_spraying_method.html
     margin-bottom: 18px;
 }
 
+.tip_column3 .tip_image1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tip_column3 .tip_image1 img {
+    width: 100%;
+}
+
+.tip_column4 .tip_image2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tip_column4 .tip_image2 img {
+    width: 60%;
+}
 /* --------------------------------------------
 vegetation_base_material_injection_method.html
 ----------------------------------------------- */
@@ -138,6 +155,15 @@ vegetation_base_material_injection_method.html
 
 .vInj_column1 img {
     width: 250px;
+}
+
+.vInj_column2 .vInj_image1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vInj_column2 .vInj_image1 img {
+    width: 90%;
 }
 
 /* PC表示 */
@@ -254,6 +280,25 @@ vegetation_base_material_injection_method.html
         margin-bottom: 20px;
     }
 
+    .tip_column3 .tip_image1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .tip_column3 .tip_image1 img {
+        width: 70%;
+    }
+    
+    .tip_column4 .tip_image2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .tip_column4 .tip_image2 img {
+        width: 35%;
+    }
+
     /* --------------------------------------------
     vegetation_base_material_injection_method.html
     ----------------------------------------------- */
@@ -297,5 +342,14 @@ vegetation_base_material_injection_method.html
     
     .vInj_column1 img {
         width: 100%;
+    }
+
+    .vInj_column2 .vInj_image1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .vInj_column2 .vInj_image1 img {
+        width: 70%;
     }
 }
