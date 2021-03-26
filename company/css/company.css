@@ -32,6 +32,12 @@
     content: "○";
 }
 
+.sup_text {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
 /* @media (min-width: 700px) {
     .content-wrapper {
         width: 90%;
@@ -77,12 +83,17 @@
 
     .content_img {
         order: 2;
-        width: 40%;
+        width: 30%;
+        text-align: right;
+    }
+
+    .content_img img {
+        width: 90%;
     }
 
     .content_text {
         order: 1;
-        width: 60%;
+        width: 70%;
         display: flex;
     }
 
@@ -98,5 +109,10 @@
         margin-right: 100px;
     }
 
+    .sup_text {
+        font-family: "ヒラギノ明朝 ProN W6";
+        font-size: 15px;
+        margin-top: 15px;
+    }
 
 }
