@@ -154,5 +154,6 @@
     .column3 section {
         width: 300px;
         margin: 10px auto;
+        margin-top: 20px;
     }
 }
