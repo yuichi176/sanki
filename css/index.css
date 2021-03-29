@@ -40,7 +40,7 @@
 .top_content-wrapper section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .top_content-container {
@@ -59,7 +59,7 @@
     color: rgb(48, 96, 48);
     font-weight: normal;
     font-size: 20px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .top_content_text {
