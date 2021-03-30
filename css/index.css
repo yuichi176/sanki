@@ -1,6 +1,6 @@
 /* メインビジュアル */
 .main_vis {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main_vis_wrapper {
@@ -147,7 +147,7 @@
         flex-direction: column;
         width: 50%;
         order: 1;
-        margin-top: 10px;
+        margin-top: 0;
     }
 
     .top_content_title {
@@ -157,8 +157,9 @@
     }
 
     .top_content_text {
-        font-size: 14px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
     .top_content_button {
@@ -166,9 +167,39 @@
         border: 1px solid rgb(48, 96, 48);
         color: rgb(48, 96, 48);
         text-align: center;
-        margin: 10px 0;
+        margin: 0;
+        margin-top: 5px;
         width: 100px;
+        position: relative;
+        z-index: 1;
     }
+
+    .top_content_button:hover {
+        color: #fff;
+    }
+
+    .top_content_button::before {
+        content: "";
+        display: block;
+        opacity: 0;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 0%;
+        background: rgb(48, 96, 48);
+        transition: opacity 0.55s cubic-bezier(0.23, 1, 0.58, 1), width 0.4s cubic-bezier(0.23, 1, 0.58, 1);
+    }
+
+    .top_content_button:hover::before {
+        opacity: 1;
+        width: 100%;
+        transition: opacity 0.55s cubic-bezier(0.23, 1, 0.58, 1), width 0.4s cubic-bezier(0.23, 1, 0.58, 1);
+    }
+
 
     .top_content_img {
         order: 2;
@@ -187,6 +218,10 @@
 @media (min-width: 1032px) {
 
     /* メインビジュアル */
+    .main_vis {
+        margin-bottom: 80px;
+    }
+
     .main_vis_wrapper {
         margin: 0 auto;
         width: 100%;
@@ -212,6 +247,10 @@
     
     .main_vis_text p span {
         color: rgb(255, 177, 29);
+    }
+
+    .top_content-wrapper section {
+        margin-bottom: 100px;
     }
 
 }

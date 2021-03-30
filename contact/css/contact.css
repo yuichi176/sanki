@@ -1,13 +1,13 @@
 .content-container{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .content {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .content h1 {
@@ -36,24 +36,24 @@
     
     .content {
         text-align: center;
-        margin-top: 70px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
         width: 100%;
     }
     
     .content h1 {
         font-family: "ヒラギノ明朝 ProN W6";
-        font-size: 22px;
+        font-size: 20px;
         font-weight: normal;
     }
     
     .content h2 {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: normal;
         margin-bottom: 18px;
     }
     
     .content p {
-        font-size: 18px;
+        font-size: 15px;
     }
 }

@@ -75,20 +75,24 @@
 
 /* PC表示 */
 @media (min-width: 1032px) {
+
     .content-container {
         flex-direction: row;
         margin-top: 50px;
         margin-bottom: 150px;
+        max-width: 1170px;
+        width: 100%;
+        margin-left: 20px;
     }
 
     .content_img {
         order: 2;
         width: 30%;
-        text-align: right;
+        text-align: center;
     }
 
     .content_img img {
-        width: 90%;
+        width: 100%;
     }
 
     .content_text {
