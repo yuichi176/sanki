@@ -40,7 +40,7 @@ index.html
     font-size: 12px;
 }
 
-/* .vwContent_image {
+.vwContent_image {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,7 @@ index.html
     width: 45%;
     height: auto;
     margin: 0 5px;
-} */
+}
 
 /* ----------------------------------------
 tip_material_spraying_method.html
