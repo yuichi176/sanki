@@ -145,6 +145,10 @@ soil_cleat_method.html
         list-style: inside;
         font-size: 18px;
     }
+
+    .scroll_list:hover {
+        opacity: 0.6;
+    }
     
     .stContent {
         display: flex;

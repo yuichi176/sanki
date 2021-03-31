@@ -48,7 +48,6 @@ index.html
 
 .vwContent_image img {
     width: 45%;
-    max-width: 45%;
     height: auto;
     margin: 0 5px;
 }
@@ -174,6 +173,10 @@ vegetation_base_material_injection_method.html
         font-size: 18px;
         margin-top: 40px;
         margin-bottom: 100px;
+    }
+
+    .scroll_list:hover {
+        opacity: 0.6;
     }
     
     .vwContent {
