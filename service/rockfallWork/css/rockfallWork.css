@@ -40,7 +40,7 @@ index.html
     font-size: 12px;
 }
 
-.vwContent_image {
+/* .vwContent_image {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -49,9 +49,19 @@ index.html
 .vwContent_image img {
     width: 45%;
     margin: 0 5px;
+} */
+
+.vwContent_image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
+.vwContent_image img {
+    width: 80%;
+    margin: 5px 0px;
+}
 
 /* PC表示 */
 @media (min-width: 1032px) {

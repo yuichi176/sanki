@@ -59,7 +59,7 @@ index.html
     font-size: 12px;
 }
 
-.stContent_image {
+/* .stContent_image {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -68,6 +68,18 @@ index.html
 .stContent_image img {
     width: 45%;
     margin: 0 5px;
+} */
+
+.stContent_image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stContent_image img {
+    width: 80%;
+    margin: 5px 0px;
 }
 
 /* ----------------------------------------
