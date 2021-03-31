@@ -48,7 +48,8 @@ index.html
 
 .vwContent_image img {
     width: 45%;
-    /* margin: 0 5px; */
+    max-width: 150px;
+    margin: 0 5px;
 }
 
 /* ----------------------------------------
