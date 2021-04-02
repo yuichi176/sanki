@@ -1,0 +1,65 @@
+.content-container {
+    margin-bottom: 50px;
+}
+
+.column_column {
+    margin-bottom: 30px;
+}
+
+.column_column h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.column_column p {
+    font-size: 12px;
+}
+
+.column_column .text {
+    margin-bottom: 5px;
+}
+
+.column_column .text ol {
+    font-size: 12px;
+}
+
+.column_column .text1 {
+    margin-bottom: 10px;
+}
+
+/* PC表示 */
+@media (min-width: 1032px) {
+    .content-container {
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+    
+    .column_column {
+        margin-bottom: 50px;
+    }
+    
+    .column_column h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .column_column p {
+        font-size: 15px;
+    }
+    
+    .column_column .text {
+        margin-bottom: 10px;
+    }
+    
+    .column_column .text ol {
+        font-size: 15px;
+    }
+    
+    .column_column .text1 {
+        margin-bottom: 20px;
+    }
+}
