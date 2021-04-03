@@ -131,6 +131,65 @@ soil_cleat_method.html
     margin-bottom: 15px;
 }
 
+/* ----------------------------------------
+existing_slope_repaire_work.html
+---------------------------------------- */
+.exi_content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.exi_column {
+    margin-bottom: 30px;
+}
+
+.exi_column h1 {
+    font-family: "ヒラギノ明朝 ProN W6";
+    color: rgb(48,96,48);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.exi_column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exi_column1 p {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.exi_column1_image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.exi_column1 img {
+    width: 250px;
+}
+
+.exi_column2 ul {
+    font-size: 12px;
+    list-style-type: inherit;
+    padding-left: 10px;
+}
+
+.exi_column2 li {
+    margin-bottom: 15px;
+}
+
+.exist_pro dt {
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 12px;
+}
+
+.exist_pro dd {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 /* PC表示 */
 @media (min-width: 1032px) {
     /* ----------------------------------------
@@ -214,6 +273,7 @@ soil_cleat_method.html
         display: flex;
         flex-direction: column;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .soil_column {
@@ -255,4 +315,65 @@ soil_cleat_method.html
     .soil_column2 ul {
         font-size: 15px;
     }
+
+    /* ----------------------------------------
+    existing_slope_repaire_work.html
+    ---------------------------------------- */
+    .exi_content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .exi_column {
+        margin-bottom: 50px;
+    }
+    
+    .exi_column h1 {
+        font-family: "ヒラギノ明朝 ProN W6";
+        color: rgb(48,96,48);
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .exi_column1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .exi_column1_text {
+        width: 70%;
+        padding-right: 30px;
+    }
+
+    .exi_column1_image {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .exi_column1 p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .exi_column1 img {
+        width: 100%;
+    }
+
+    .exi_column2 ul {
+        font-size: 15px;
+    }
+
+    .exist_pro dt {
+        font-family: "ヒラギノ明朝 ProN W6";
+        font-size: 15px;
+    }
+
+    .exist_pro dd {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
 }
