@@ -82,6 +82,14 @@ index.html
     margin: 5px 0px;
 }
 
+.spray_add_column {
+    text-align: left;
+}
+
+.spray_add_column img {
+    width: 80%;
+}
+
 /* ----------------------------------------
 soil_cleat_method.html
 ---------------------------------------- */
@@ -264,6 +272,20 @@ existing_slope_repaire_work.html
         width: 80%;
         margin: 0;
         margin-bottom: 10px;
+    }
+
+    .spray_add_column {
+        display: flex;
+
+    }
+    
+    .spray_add_column img {
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .spray_add_column p {
+        align-self: flex-end;
     }
 
     /* ----------------------------------------
