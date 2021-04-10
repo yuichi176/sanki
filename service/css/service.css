@@ -69,11 +69,11 @@
 .column3 section {
     width: 400px;
     margin: 10px auto;
+    text-align: center;
 }
 
 .column3 img {
-    width: 100%;
-
+    width: 85%;
 }
 
 .column3 p {
@@ -160,5 +160,9 @@
         width: 300px;
         margin: 10px auto;
         margin-top: 20px;
+    }
+
+    .column3 img {
+        width: 100%;
     }
 }

@@ -83,7 +83,8 @@ index.html
 }
 
 .spray_add_column {
-    text-align: left;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .spray_add_column img {
@@ -198,6 +199,16 @@ existing_slope_repaire_work.html
     margin-bottom: 10px;
 }
 
+.exi_column2 .image {
+    margin-bottom: 15px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.exi_column2 .image img {
+    width: 75%;
+}
+
 /* PC表示 */
 @media (min-width: 1032px) {
     /* ----------------------------------------
@@ -286,6 +297,7 @@ existing_slope_repaire_work.html
 
     .spray_add_column p {
         align-self: flex-end;
+        color: red;
     }
 
     /* ----------------------------------------
@@ -396,6 +408,16 @@ existing_slope_repaire_work.html
     .exist_pro dd {
         font-size: 15px;
         margin-bottom: 15px;
+    }
+
+    .exi_column2 .image {
+        margin-top: -10px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    .exi_column2 .image img {
+        width: 30%;
     }
 
 }
