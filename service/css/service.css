@@ -165,4 +165,8 @@
     .column3 img {
         width: 100%;
     }
+
+    .column3 a:hover {
+        opacity: 0.8;
+    }
 }
