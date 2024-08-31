@@ -119,9 +119,40 @@ header {
     color: #fff;
     padding: 20px 10px;
     font-size: 15px;
-    border-top: 1px white solid;
+    border-bottom: 1px white solid;
     font-weight: normal;
 }
+
+.menu-overlay .sns-link-list {
+    display: flex;
+}
+
+.menu-overlay .sns-link-list li {
+    border-bottom: none;
+}
+
+.sns-link-list .insta_link {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.sns-link-list .insta_link img {
+    width: 100%;
+    height: 100%;
+}
+
+.sns-link-list .tiktok_link {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.sns-link-list .tiktok_link img {
+    width: 100%;
+    height: 100%;
+}
+
 
 /* メイン */
 main {
