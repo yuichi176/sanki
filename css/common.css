@@ -146,6 +146,7 @@ header {
     display: inline-block;
     width: 35px;
     height: 35px;
+    margin-top: -3px;
 }
 
 .sns-link-list .tiktok_link img {
