@@ -43,7 +43,7 @@
     border-bottom: 1px solid rgb(177, 177, 177);
 }
 
-.new-graduate, .mid-career, .contact {
+.mid-career, .contact {
     display: inline-block;
     padding: 10px 15px;
     width: 260px;
@@ -55,8 +55,13 @@
     cursor: pointer;
 }
 
-.new-graduate, .mid-career {
+.mid-career {
     background-color: rgb(61, 136, 38);
+}
+
+.new-graduate-description {
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 .contact {
@@ -91,13 +96,18 @@
         padding: 25px 0;
     }
 
-    .new-graduate, .mid-career, .contact {
+    .mid-career, .contact {
         padding: 15px 20px;
         width: 450px;
     }
 
-    .new-graduate:hover, .mid-career:hover, .contact:hover {
+    .mid-career:hover, .contact:hover {
         opacity: 0.8;
         transition: opacity 0.3s;
+    }
+
+    .new-graduate-description {
+        margin-top: 20px;
+        font-size: 15px;
     }
 }
