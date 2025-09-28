@@ -36,6 +36,9 @@
 .top_content-wrapper {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_content-wrapper section {
@@ -60,7 +63,6 @@
     color: rgb(48, 96, 48);
     font-weight: normal;
     font-size: 20px;
-    /* margin-bottom: 10px; */
 }
 
 .top_content_text {
@@ -84,6 +86,22 @@
 
 .top_content_img img {
     width: 100%;
+}
+
+.next_years_button {
+    padding: 15px 30px;
+    border: 1px solid rgb(48, 96, 48);
+    color: rgb(48, 96, 48);
+    text-align: center;
+    margin: 10px 0;
+    width: 100px;
+}
+
+.next_years_button_wrapper {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 /* タブレット表示 */
@@ -123,14 +141,15 @@
     }
       /* トップ_コンテント */
       .top_content-wrapper {
-        width: 90%;
-        margin: 0 auto;
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 20px;
+          gap: 50px;
     }
 
     .top_content-wrapper section {
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
     }
 
     .top_content-container {
@@ -231,7 +250,6 @@
         100% {transform: translateX(0px);}
     }
 
-
     .top_content_img {
         order: 2;
         width: 40%;
@@ -243,6 +261,74 @@
         width: 100%;
     }
 
+    .next_years_button {
+        display: inline-block;
+        padding: 15px 20px;
+        border: 1px solid rgb(48, 96, 48);
+        color: rgb(48, 96, 48);
+        text-align: center;
+        margin: 0;
+        margin-top: 5px;
+        width: 180px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .next_years_button span {
+        padding-right: 13px;
+    }
+
+    .next_years_button:hover {
+        color: #fff;
+    }
+
+    .next_years_button::before {
+        content: "";
+        display: block;
+        opacity: 0;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 0%;
+        background: rgb(48, 96, 48);
+        transition: opacity 0.55s cubic-bezier(0.23, 1, 0.58, 1), width 0.4s cubic-bezier(0.23, 1, 0.58, 1);
+    }
+
+    .next_years_button:hover::before {
+        opacity: 1;
+        width: 100%;
+        transition: opacity 0.55s cubic-bezier(0.23, 1, 0.58, 1), width 0.4s cubic-bezier(0.23, 1, 0.58, 1);
+    }
+
+    .next_years_button::after {
+        position: absolute;
+        top: 50%;
+        right: .2em;
+        content: '';
+        margin-top: -5px;
+        border: 7px solid transparent;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-left-color: rgb(48, 96, 48);
+        transition: all .3s;
+    }
+
+    .next_years_button:hover::after {
+        border-left-color: #fff;
+        animation-name: cursor_move;
+        animation-duration: .3s;
+        animation-delay: .2s;
+    }
+
+    @keyframes cursor_move {
+        0% {transform: translateX(0px);}
+        50% {transform: translateX(-3px);}
+        100% {transform: translateX(0px);}
+    }
 }
 
 /* PC表示 */
@@ -280,8 +366,9 @@
         color: rgb(255, 177, 29);
     }
 
-    .top_content-wrapper section {
-        margin-bottom: 120px;
+    .top_content-wrapper {
+        margin-bottom: 50px;
+        gap: 120px;
     }
 
     .top_content_text-container {
@@ -302,4 +389,7 @@
         margin-bottom: 30px;
     }
 
+    .next_years_button_wrapper {
+        margin-bottom: 30px;
+    }
 }
