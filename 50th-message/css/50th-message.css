@@ -8,8 +8,7 @@
 
 .transversally-message-container-prepare-badge {
     padding: 5px 20px;
-    border: solid;
-    border-color: rgba(48, 96, 48, 0.8);
+    border: solid 1px rgba(48, 96, 48, 0.8);
     color: rgb(48, 96, 48);
     margin-bottom: 30px;
 }
